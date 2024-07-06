@@ -1,0 +1,35 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color:  rgb(59, 62, 67);
+  ;
+}
+
+.nav-menu a {
+  margin: 0 10px;
+  padding: 5px 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.nav-menu a:hover {
+  background-color: #5effbc;
+  color:#000
+}
+
+
+/* Works for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
